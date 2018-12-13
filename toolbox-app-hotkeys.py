@@ -1,6 +1,6 @@
 import os
 
-path = '/Users/zhoujialei/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0'
+path = os.getenv('HOME') + '/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0'
 
 def walk(top, maxdepth):
     dirs, nondirs = [], []
